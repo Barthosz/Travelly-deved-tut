@@ -100,5 +100,17 @@ nav ul {
 }
 
 h3 {
-  padding: 4rem;
+  padding: 3rem;
+}
+
+@media screen and (max-width: 932px) {
+  html {
+    font-size: 45%;
+  }
+  nav {
+    text-align: center;
+  }
+  #logo {
+    padding: 2rem;
+  }
 }
